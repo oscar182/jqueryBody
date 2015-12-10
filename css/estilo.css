@@ -1,0 +1,23 @@
+.back{
+	background-image: url('http://p1.pichost.me/i/32/1554356.jpg');
+	background-position: center center;  
+	background-repeat: no-repeat;/* La imagen de fondo no se repite */
+	background-attachment: fixed;   /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
+     la altura del contenido supere la altura de la imagen. */
+
+  /* La imagen de fondo se reescala cuando se cambia el ancho de ventana
+     del navegador */
+  background-size: cover;
+  /* Fijamos un color de fondo para que se muestre mientras se está
+    cargando la imagen de fondo o si hay problemas para cargarla  */
+  background-color: #464646;
+
+}
+.back2{
+	background-image: url('http://www.filomedios.com/site/wp-content/uploads/2015/02/top-5-must-have-android-apps-recommendations-busy-phone.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: cover;
+  	background-color: #464646;
+  }
