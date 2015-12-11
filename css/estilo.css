@@ -1,16 +1,16 @@
 .back{
 	background-image: url('http://p1.pichost.me/i/32/1554356.jpg');
 	background-position: center center;  
-	background-repeat: no-repeat;/* La imagen de fondo no se repite */
-	background-attachment: fixed;   /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
-     la altura del contenido supere la altura de la imagen. */
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+ 	background-size: cover;
+ 	background-color: #464646;
 
-  /* La imagen de fondo se reescala cuando se cambia el ancho de ventana
-     del navegador */
-  background-size: cover;
-  /* Fijamos un color de fondo para que se muestre mientras se está
-    cargando la imagen de fondo o si hay problemas para cargarla  */
-  background-color: #464646;
+ 	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
 
 }
 .back2{
@@ -20,4 +20,11 @@
 	background-attachment: fixed;
   	background-size: cover;
   	background-color: #464646;
+ 	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+
   }
+

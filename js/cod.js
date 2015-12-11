@@ -1,31 +1,13 @@
 
 
 	$(".myclass3").hover(function() { 
-	    $("body").addClass("back");
+	    $("body").addClass("back"); // agrega la clase en el body
 	},function(){
-		$("body").removeClass("back");
+		$("body").removeClass("back"); // al retirar el puntero quita la claseCSS
 	});
 	
 	$(".myclass2").hover(function(){
-	    $("body").addClass("back2");//back es un css
+	    $("body").addClass("back2"); // agrega la clase en el body
 	},function(){
-		$("body").removeClass("back2");
+		$("body").removeClass("back2"); // al retirar el puntero quita la claseCSS
 	});
-
-/*
-$(".myclass2").hover(function(e) { 
-    $("body").css("background-color",e.type === "mouseenter"?"blue":"transparent") 
-})
-
-$(".myclass2").hover(function() {
-	$("body").attr("src","tech.jpg");
-		}, function() {
-	$("body").css("background-color",e.type === "mouseenter"?"white":"transparent") 
-	});
-
-	$(".myclass2").hover(function() {
-		$("body").attr("src","tech.jpg");
-			}, function() {
-		$("body").attr("src","");
-	});
-*/
